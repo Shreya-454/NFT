@@ -1,0 +1,492 @@
+@import url('https://.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+}
+
+:root {
+    /* font-size */
+    --fs-sm: 12px;
+    --fs-md: 16px;
+    --fs-lg: 25px;
+    /* color */
+    --bs-white: #FFFFFF;
+    --bs-basicblack: #000000;
+    --bs-blue: #1A9FFF;
+    --bs-dark: #00000014;
+    --bs-darkblue: #0000001A;
+    --bs-offwhite: #F8F8F8;
+    --bs-black: #00000033;
+    --bs-grey: #6f6d6d;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--bs-basicblack);
+}
+
+.header {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--bs-basicblack);
+    opacity: 60%;
+
+}
+
+.follow {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-sm);
+    font-weight: 400;
+    color: var(--bs-blue);
+}
+
+.font {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.add {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 400;
+    text-align: left;
+    color: var(--bs-basicblack);
+    border: none;
+}
+
+.header:hover {
+    opacity: 100%;
+}
+
+.bg {
+    background-color: var(--bs-white);
+    box-shadow: 0px 4px 35px 0px #00000014;
+}
+
+.gap-59 {
+    gap: 59px;
+}
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.gap-25 {
+    gap: 25px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.pt-31 {
+    padding-top: 31px !important;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-16 {
+    padding-top: 16px;
+}
+
+.pr-63 {
+    padding-right: 63px;
+}
+
+.box-2 {
+    width: 100%;
+    height: 476px;
+    border: 1px;
+    background: var(--bs-offwhite);
+    border: 1px solid #0000001A
+}
+
+.bg2 {
+    background: var(--bs-offwhite);
+}
+
+.pt-35 {
+    padding-top: 35px;
+}
+
+.pt-42 {
+    padding-top: 42px;
+}
+
+.pb-34 {
+    padding-bottom: 34px;
+}
+
+.overflow-x-scroll {
+    overflow-x: scroll;
+}
+
+.height-700 {
+    height: 700px;
+}
+
+.pt-3 {
+    padding-top: 3rem !important;
+}
+
+.pr-30 {
+    padding-right: 30px;
+}
+
+.pt-14 {
+    padding-top: 14px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.card3 {
+    width: 400px;
+    padding: 24px;
+    border: 1px;
+    border-color: var(--bs-black);
+    background: white;
+    border: 0px, 0px, 0px, 0px;
+    border-style: solid;
+}
+
+.white-space {
+    white-space: nowrap;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.pt-19 {
+    padding-top: 19px;
+}
+
+
+
+.input2 {
+    padding: 4px 24px 4px 24px;
+    border-radius: 25.5px;
+    border: 1px solid rgb(182, 180, 180);
+}
+
+
+
+
+.grey {
+    color: var(--bs-grey);
+}
+
+
+.blue {
+    color: var(--bs-blue);
+}
+
+.pt-44 {
+    padding-top: 44px;
+}
+
+.gap-17 {
+    gap: 17px;
+}
+
+.px-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pl-14 {
+    padding-left: 14px !important;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-22 {
+    padding-top: 22px;
+}
+
+.pt-27 {
+    padding-top: 27px;
+}
+
+.pt-49 {
+    padding-top: 49px;
+}
+
+.card2 {
+    max-width: 951px;
+    border: 1px;
+    border-width: 0px, 0px, 0px, 0px;
+    border-style: solid;
+    border-color: var(--bs-black);
+    background: white;
+}
+
+.pb-38 {
+    padding-bottom: 38px;
+}
+
+.pr-21 {
+    padding-right: 21px;
+}
+
+.pt-17 {
+    padding-top: 17px;
+}
+
+.pb-76 {
+    padding-bottom: 76px;
+}
+
+.py-43 {
+    padding-top: 43px;
+    padding-bottom: 43px;
+}
+
+.btn1 {
+    background-color: var(--bs-white);
+    border: none;
+}
+
+.btn2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    border-radius: 25.5px;
+    background: var(--bs-darkblue);
+    color: var(--bs-black);
+    padding: 5px 12px 5px 12px;
+    border: none;
+}
+
+.btn3 {
+    padding: 5px 12px 5px 12px;
+    border-radius: 25.5px;
+    background: var(--bs-darkblue);
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    color: var(--bs-black);
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--bs-offwhite);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border: 1px solid var(--bs-black)
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: var(--bs-basicblack);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color:var(--bs-white);
+    border: 1px solid var(--bs-black);
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px var(--bs-white);
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.btn2:hover {
+    background: var(--bs-basicblack);
+    color: var(--bs-white);
+}
+
+.btn3:hover {
+    background: var(--bs-basicblack);
+    color: var(--bs-white);
+}
+
+
+.h-15 {
+    height: 15px !important;
+}
+
+.pt-98 {
+    padding-top: 98px;
+}
+
+.for {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-sm);
+    font-weight: 400;
+    color: var(--bs-grey);
+}
+
+.py-25 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.input {
+    display: flex;
+    width: 315px;
+    padding: 8px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 25.5px;
+    border: 1px solid rgba(0, 0, 0, 0.20) !important;
+    background: var(--bs-white);
+}
+
+.mr_4 {
+    margin-right: 4px;
+}
+
+@media (min-width:576px) {
+    :root {
+        /* font-size */
+        --fs-sm: 12px;
+        --fs-md: 18px;
+        --fs-lg: 36px
+    }
+}
+
+@media (max-width:992px) {
+    .small_screen {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: -100%;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        pointer-events: none;
+        background-color:var(--bs-white);
+        transition: all.3s linear;
+        gap: 33px;
+        z-index: 1;
+    }
+
+    label[for="menuicon"]>span {
+        width: 5px;
+        height: 100%;
+        background-color: var(--bs-basicblack);
+        border-radius: 2px;
+    }
+
+    label[for="menuicon"]>span {
+        width: 5px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    input[type="checkbox"]:checked~.small_screen {
+        opacity: 1;
+        pointer-events: all;
+        left: 0%;
+    }
+
+    input[type="checkbox"]:checked~div.small_screen ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .z-index {
+        z-index: 2;
+    }
+
+    .rotate {
+        transform: rotate(90deg);
+    }
+
+    .pos-fix {
+        position: fixed;
+        left: 0;
+        right: -20px;
+        z-index: 2;
+    }
+
+    .start {
+        position: relative;
+        top: 17px;
+    }
+}
+
+@media (max-width:576px) {
+
+    .mw-50 {
+        min-width: 50px;
+    }
+
+    .w-sm-100 {
+        width: 100%;
+    }
+
+}
